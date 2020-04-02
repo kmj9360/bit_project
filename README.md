@@ -19,7 +19,7 @@
 * Front-End : Javascript, HTML5, CSS3, JQuery, Ajax, JSP <br/>
 * Back-End : Java, MyBatis, Oracle 11g, Spring Tool Suite 3 <br/>
 * Open API : Chart.js, Kakao Developers, NAVER Developers, import, JavaMail <br/>
-* Tool : Apache Tomcat 8.5, Apache Commons, eXERD, Git, Github, SourceTree, Notion <br/><br/>
+* Tool : Apache Tomcat 8.5, Apache Commons, Visual Studio Code, eXERD, Axure, Git, Github, SourceTree, Notion <br/><br/>
 
 
 ## 화면구조도
@@ -39,8 +39,8 @@
 * 마이페이지 구독정보, 포인트, 활동내역, 회원정보 수정 <br/>
 * 관리자 페이지 차트, 회원관리, 결제관리, 개인쉐어상품 수락/거절, 상품 반납처리 <br/>
 
-#### 역할
+## 역할 및 페이지 구성
 
-1. 일반&SNS 로그인
-2. 일반&간편 회원가입
-3. 아이디&비밀번호 찾기
+* 일반&SNS 로그인
+* 일반&간편 회원가입
+* 아이디&비밀번호 찾기
