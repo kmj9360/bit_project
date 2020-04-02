@@ -31,16 +31,26 @@
 * 회원가입 시 구글 SMTP를 이용한 인증, 도로명주소 API 연결 <br/>
 * 카카오/네이버 API를 이용한 간편 로그인 <br/>
 * 카카오맵 API를 이용한 위치소개 <br/>
-* Import를 이용한 카카오페이 정기결제 예약/취소 <br/>
+* Import를 이용한 카카오페이 결제 <br/>
 * 상품 리스트 필터를 이용한 여러가지 조건 적용 <br/>
 * 상품 위시리스트/예약/알람 <br/>
 * 상품 상세페이지 문의 및 리뷰 <br/>
 * 관리자와의 1:1 채팅 <br/>
 * 마이페이지 구독정보, 포인트, 활동내역, 회원정보 수정 <br/>
-* 관리자 페이지 차트, 회원관리, 결제관리, 개인쉐어상품 수락/거절, 상품 반납처리 <br/>
+* 관리자 페이지 차트, 회원관리, 결제관리, 개인쉐어상품 수락/거절, 상품 반납처리 <br/><br/>
 
-## 역할 및 페이지 구성
+## 역할 및 페이지 구성 <br/>
+#### 위치 : [bit_project/GOODLUXE/src/main/webapp/WEB-INF/views/](https://github.com/kmj9360/bit_project/tree/master/Goodluxe/src/main/webapp/WEB-INF/views)
 
-* 일반&SNS 로그인
-* 일반&간편 회원가입
-* 아이디&비밀번호 찾기
+* 일반 회원가입 _ [joinForm.jsp](https://github.com/kmj9360/bit_project/blob/master/Goodluxe/src/main/webapp/WEB-INF/views/__joinForm.jsp) <br/>
+![회원가입페이지](https://user-images.githubusercontent.com/56961349/78282754-c2430c80-7557-11ea-8de8-f7bdb993cb06.jpg) <br/>
+
+  * 유효성검사 및 중복검사 <br/>
+![유효성검사](https://user-images.githubusercontent.com/56961349/78292293-c6742780-7561-11ea-89ad-76128079e4d9.gif) <br/>
+
+  * 이메일 인증 <br/>
+  > 미인증시 _ [join_email_not_confirmed.jsp](https://github.com/kmj9360/bit_project/blob/master/Goodluxe/src/main/webapp/WEB-INF/views/join_email_not_confirmed.jsp) <br/>
+![이메일미인증](https://user-images.githubusercontent.com/56961349/78307381-b3248480-7580-11ea-962e-6c51c25fe346.gif) <br/>
+  > 인증 시 _ [join_email_confirmed.jsp](https://github.com/kmj9360/bit_project/blob/master/Goodluxe/src/main/webapp/WEB-INF/views/join_email_confirmed.jsp) <br/>
+![이메일인증3_1](https://user-images.githubusercontent.com/56961349/78306784-2b8a4600-757f-11ea-82fe-1809a0b00aa8.gif) <br/>
+
