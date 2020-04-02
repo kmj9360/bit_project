@@ -46,6 +46,8 @@
 ![회원가입페이지](https://user-images.githubusercontent.com/56961349/78282754-c2430c80-7557-11ea-8de8-f7bdb993cb06.jpg) <br/>
 
   * 유효성검사 및 중복검사 <br/>
+  > ✏js를 이용한 유효성검사<br/>
+  > ajax를 이용한 중복검사<br/>
 ![유효성검사](https://user-images.githubusercontent.com/56961349/78292293-c6742780-7561-11ea-89ad-76128079e4d9.gif) <br/>
 
   * 이메일 인증 <br/>
